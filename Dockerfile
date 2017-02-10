@@ -3,7 +3,7 @@ MAINTAINER searx <https://github.com/asciimoo/searx>
 LABEL description "A privacy-respecting, hackable metasearch engine."
 
 ENV BASE_URL=False IMAGE_PROXY=False
-EXPOSE 8888
+EXPOSE 8999
 WORKDIR /usr/local/searx
 CMD ["/usr/bin/tini","--","/usr/local/searx/run.sh"]
 
